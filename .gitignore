@@ -1,0 +1,24 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales (¡Muy importante no subirlos!)
+venv/
+env/
+.venv/
+
+# --- macOS ---
+.DS_Store
+
+# --- PyInstaller (Carpetas de compilación y ejecutables) ---
+build/
+dist/
+*.spec
+
+# --- VS Code / Cursor ---
+.vscode/
+.cursor/
+
+# --- Logs y temporales ---
+*.log
